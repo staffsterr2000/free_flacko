@@ -1,40 +1,79 @@
-.head {
+h1.head {
     font-size: 200%;
-    font-style: italic;
-    font-variable: small-caps;
-    font-family: Arial;
+    /* font-style: italic; */
+    font-variant: small-caps;
+    font-family: Verdana;
+    text-shadow: 3px 3px 6px #ED5151;
+    color: #ED5151;
+}
+
+h3.head {
+    font-size: 200%;
+    /* font-style: italic; */
+    font-variant: small-caps;
+    font-family: Verdana;
+    text-shadow: 3px 3px 6px #B350E4;
+    color: #B350E4;
 }
 
 body {
-    background-color: #BBB;
-    color: #00FF00;
-    font-family: "Times New Roman";
+    background-image: linear-gradient(20deg, #E5BB00 10%, #0914E5);
+
+    /* background-color: rgba(168,223,250,0.9); */
+    /* background-repeat: no-repeat; */
+    /* filter: opacity(90%);
+    filter: blur(2.3px); */
+
+    color: #B388E4;
+    font-family: "Courier New";
+    font-weight: 900;
     font-size: 120%;
 }
 
 img {
-    align: center;
     border: 1px solid #000;
     padding: 1px;
     background-color: #FFF;
-    height: 50%;
-    width: 50%;
+    height: 30%;
+    width: 30%;
 }
 
-#first_article {
+video {
+    height: 40%;
+    width: 40%;
+}
+
+#audvid_article {
     border-bottom: 3px solid #222;
     padding-bottom: 10px;
 }
 
-.table_about_rapper {
-    font-size: 200%;
+.main_data_table {
+    font-size: 100%;
     font-family: Calibri;
-    border: 3px solid #000;
-    padding: 5px;
+    /* color: black; */
 }
 
-#first_data {
+#left_column {
+    text-shadow: 1px 1px 10px #111;
+    text-align: center;
     font-style: italic;
     font-weight: 700;
     color: #111;
+}
+
+#right_column {
+    color: #555;
+}
+
+ul.nav_list {
+    font-variant: small-caps;
+    color: #551A8B;
+    font-family: fantasy;
+    font-size: 140%;
+    letter-spacing: 2px;
+}
+
+form {
+    color: #B34EE9;
 }

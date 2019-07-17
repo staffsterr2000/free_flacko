@@ -2,88 +2,98 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Free Flaco</title>
+    <title>Free Flacko</title>
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1 class="head">A$AP ROCKY (Rakim Mayers)</h1>
+        <h1 class="head">A$ap Rocky (Lord Flacko)</h1>
     </header>
 
     <nav>
-        <ul>
-            <li><a href="#" target="_blank">smth1</a></li>
-            <li><a href="#" target="_blank">smth2</a></li>
-            <li><a href="#" target="_blank">smth3</a></li>
+        <ul class="nav_list">
+            <li><a href="https://www.instagram.com/asaprocky/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.youtube.com/channel/UC0KAFLxIiaR_FFNYDL3utGw" target="_blank">Youtube</a></li>
+            <li><a href="https://soundcloud.com/asvpxrocky" target="_blank">Soundcloud</a></li>
         </ul>
     </nav>
 
-    <article id="first_article">
-        <section>
-            <p>... entertainment and smth about rapper's childhood...</p>
-            <img src="img/flaco_first.jpg" alt="young Flaco..." /> <br />
+    <article id="audvid_article">
+        <section class="audio_forever">
+            <p>In 2011, Rocky began dating Australian rapper Iggy Azalea, whom he met through Chase N. Cashe.
+              Azalea confirmed that they were dating in an interview with Vibe Magazine released on January 15, 2012.
+              It was around this time that she revealed she had tattooed the title of Rocky's breakout mixtape
+              "Live.Love.A$AP" on her fingers. She also claimed she was not the only one with tattoos dedicated to
+              the relationship. Later, in July 2012, Rocky said they were no longer dating. In March 2013, Azalea
+              revealed she had crossed out the "A$AP" part of the tattoo. Mayers is a pescetarian.</p>
+            <img src="img/babushka.jpg" alt="dope Flacko..." /> <br /> <br />
             <audio loop controls>
-                <source src="audio/flaco_first.mp3" type="audio/mp3" />
-            </audio>
-        </section>
-        <section>
-            <iframe height="450" width="300" allowfullscreen  src="https://www.youtube.com/embed/#">
-            </iframe>
-            <form action="#" method="POST" target="_blank">
-                <textarea name="text">
-                <input type="submit" value="Send">
+                <source src="audio/asap_forever.mp3" type="audio/mp3" />
+            </audio><br />
+            <h3 class="head">What's about this song?</h3>
+            <form action="https://www.youtube.com/results?search_query=a%24ap+rocky" method="POST" target="_blank">
+                <input type="radio" name="aud_choice" value="1" > Very nice </input> <br />
+                <input type="radio" name="aud_choice" value="2" > I like it... </input> <br />
+                <input type="radio" name="aud_choice" value="3"> So so </input> <br />
+                <input type="radio" name="aud_choice" value="4" > I don't like it... </input> <br />
+                <input type="radio" name="aud_choice" value="5" > Worst sh*t I ever heard. </input> <br />
+                <input type="submit" value="Send" ></input>
+            </form>
+        </section> <br />
+        <section class="video_forever">
+            <!-- <iframe height="450" width="700" allowfullscreen  src="https://www.youtube.com/embed/ezDor1dblDs">
+            </iframe> -->
+            <video loop controls autoplay>
+                <source src="video/asap_forever.mp4" type="video/mp4">
+            </video>
+            <h3 class="head">What's about this video?</h3>
+            <form class="second_song" action="https://www.youtube.com/results?search_query=a%24ap+rocky"
+            method="POST" target="_blank">
+                <input type="checkbox" name="vid_choice" value="1" > I like these money </input> <br />
+                <input type="checkbox" name="vid_choice" value="2" > I like this guy </input> <br />
+                <input type="checkbox" name="vid_choice" value="3" > I like that weed </input> <br />
+                <input type="checkbox" name="vid_choice" value="4" > I like those girls </input> <br />
+                <input type="radio" name="vid_choice" value="5" > I don't like anything... </input> <br />
+                <input type="submit" value="Send" ></input>
             </form>
         </section>
-        <aside>
-            <h3>What's about this song?</h3>
-            <form action="#" method="POST" target="_blank">
-                <input type="radio" name="aud_choice" value="1" /> Very nice
-                <input type="radio" name="aud_choice" value="2" /> I like it...
-                <input type="radio" name="aud_choice" value="3"/> So so
-                <input type="radio" name="aud_choice" value="4" /> I don't like it...
-                <input type="radio" name="aud_choice" value="5" /> Worst sh*t I ever heard. <br />
-                <input type="submit" value="Send" />
-            </form>
-            <h3>What's about video?</h3>
-            <form action="#" method="POST" target="_blank">
-                <input type="checkbox" name="vid_choice" value="1" /> I like...
-                <input type="checkbox" name="vid_choice" value="2" /> I like...
-                <input type="checkbox" name="vid_choice" value="3" /> I like...
-                <input type="checkbox" name="vid_choice" value="4" /> I like...
-                <input type="radio" name="vid_choice" value="5" /> I don't like anything...
-                <input type="submit" value="Send" />
-            </form>
-        </aside>
     </article>
-
-    <aside>
-        <h3>short data about rapper</h3>
-        <table class="table_about_rapper">
+    <article class="table_forever">
+        <h3 class="head">Main data about rapper</h3>
+        <table class="main_data_table" border="1px" cellpadding="2px" cellspacing="0px">
             <tr>
-                <td id="first_data">Name</td>
-                <td>#</td>
+                <td id="left_column">Real name</td>
+                <td id="right_column">Rakim Mayers</td>
             </tr>
             <tr>
-                <td id="first_data">Years</td>
-                <td>#</td>
+                <td rowspan="2" id="left_column">Born</td>
+                <td id="right_column">October 3, 1988 (age 30)</td>
             </tr>
             <tr>
-                <td id="first_data">Country</td>
-                <td>#</td>
+                <td id="right_column">Harlem, New York City, U.S.</td>
             </tr>
             <tr>
-                <td id="first_data">Music style</td>
-                <td>#</td>
+                <td id="left_column">Music style</td>
+                <td id="right_column">Hip hop, <br />alternative hip hop</td>
             </tr>
         </table>
+    </article> <br />
+
+    <aside>
+        <form action="https://www.youtube.com/results?search_query=a%24ap+rocky" method="POST" target="_blank">
+            <textarea name="text"></textarea> <br />
+            <input type="submit" value="Send"></input>
+        </form>
     </aside>
 
     <footer>
-        <p>...some info about me...</p>
+        <!-- <ul>
+
+        </ul> -->
     </footer>
 
     <script>
-        alert("Free Flaco!");
+        alert("Free Flacko!");
     </script>
 </body>
 </html>
